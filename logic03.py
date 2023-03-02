@@ -1,4 +1,4 @@
-def main(a,b):
+def main(a=7,b=7):
     """
     Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is negative".
     Args:
@@ -7,4 +7,9 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    a = 9
+    b = 7
+    answer = (a == b)
+    return answer
+
+print(main())
