@@ -8,4 +8,14 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+
+    a = 15
+    b = 25
+    c = 35
+
+    answer = 15 <= 25 < 35
+    return answer
+
+print(main(15,25,35))
+
+
