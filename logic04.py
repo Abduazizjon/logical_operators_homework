@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    a = 22
+    b = 35
+
+    answer = (a>=b)
+    return answer
+
+print(main(22,35))
