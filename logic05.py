@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    a = 56
+    b = 97
+
+    answer = (a<=b)
+    return answer
+
+print(main(56,97))
