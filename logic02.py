@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    return answer
+
+a = 5
+b = 5
+answer = (a==b)
+
+print(answer)
